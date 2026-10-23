@@ -2,6 +2,7 @@ import './style.css';
 import { createIcons, Activity, ArrowDown, ArrowLeft, ArrowRight, ArrowUpRight, Bookmark, BookOpen, Check, ChevronDown, ChevronRight, CircleHelp, Dna, Expand, Eye, Focus, Layers3, Menu, MousePointer2, Move, RotateCcw, Search, SlidersHorizontal, Sparkles, X, ZoomIn, ZoomOut } from 'lucide';
 import musclesData from './muscles.json';
 import { AnatomyViewer } from './viewer';
+import { anatomyPalette } from './palette';
 import type { Layer, Muscle, Part, Region, View } from './types';
 
 const muscles = musclesData as Muscle[];
@@ -51,6 +52,7 @@ $('#app').innerHTML = `
       <section class="stage" aria-label="3D 肌肉图谱">
         <div class="stage-heading"><div><span class="stage-kicker">交互式解剖图谱</span><h2 id="stage-title">全身肌肉<span class="model-dot"></span></h2></div><span class="model-badge">3D <span>·</span> 成人男性参考</span></div>
         <div class="view-switch" role="group" aria-label="模型视角"><button class="active" data-view="front" aria-pressed="true">正面</button><button data-view="back" aria-pressed="false">背面</button><button data-view="left" aria-pressed="false">左侧</button><button data-view="right" aria-pressed="false">右侧</button></div>
+        <div class="model-legend" aria-label="模型颜色说明"><span><span class="legend-swatch" style="--swatch:${anatomyPalette.bone}" aria-hidden="true"></span>骨骼</span><span><span class="legend-swatch" style="--swatch:${anatomyPalette.muscle}" aria-hidden="true"></span>肌肉</span><span class="legend-selected"><span class="legend-swatch" style="--swatch:${anatomyPalette.selected}" aria-hidden="true"></span>已选中</span></div>
         <div class="model-container" id="model-container"></div>
         <div class="model-loading" id="model-loading" role="status"><div class="loading-icon">${icon('dna')}</div><strong id="loading-label">正在准备人体模型</strong><div class="progress-track"><span id="loading-progress"></span></div><p>第一次认识身体，值得多等一小会儿</p></div>
         <div class="stage-annotation"><span class="annotation-line"></span><span id="annotation-name">胸大肌<small>PECTORALIS MAJOR</small></span></div>

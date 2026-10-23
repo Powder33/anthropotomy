@@ -1,5 +1,6 @@
 import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+import { anatomyPalette } from './palette';
 import type { Layer, Manifest, ModelChunk, Muscle, Part, Region, View } from './types';
 
 export class AnatomyViewer {
@@ -22,6 +23,35 @@ export class AnatomyViewer {
   private animation = 0;
   private tooltip: HTMLElement;
   private materials: Record<string, THREE.MeshStandardMaterial>;
+  private outlines = new THREE.Group();
+  private outlineMaterial = new THREE.ShaderMaterial({
+    uniforms: {
+      color: { value: new THREE.Color(anatomyPalette.selectedOutline) },
+      resolution: { value: new THREE.Vector2(1, 1) },
+      width: { value: 1.6 },
+    },
+    vertexShader: `
+      uniform vec2 resolution;
+      uniform float width;
+      void main() {
+        vec4 projected = projectionMatrix * modelViewMatrix * vec4(position, 1.0);
+        vec3 viewNormal = normalMatrix * normal;
+        vec2 direction = (projectionMatrix * vec4(viewNormal, 0.0)).xy;
+        direction /= max(length(direction), 0.0001);
+        projected.xy += direction * width * 2.0 / resolution * projected.w;
+        gl_Position = projected;
+      }
+    `,
+    fragmentShader: `
+      uniform vec3 color;
+      void main() {
+        gl_FragColor = vec4(color, 1.0);
+        #include <colorspace_fragment>
+      }
+    `,
+    side: THREE.BackSide,
+    depthWrite: false,
+  });
   ready = false;
 
   constructor(private container: HTMLElement, muscles: Muscle[], private onPick: (id: string, part: Part) => void) {
@@ -30,7 +60,7 @@ export class AnatomyViewer {
     this.renderer.setPixelRatio(Math.min(window.devicePixelRatio, 1.8));
     this.renderer.outputColorSpace = THREE.SRGBColorSpace;
     this.renderer.toneMapping = THREE.ACESFilmicToneMapping;
-    this.renderer.toneMappingExposure = 1.35;
+    this.renderer.toneMappingExposure = 0.95;
     this.renderer.domElement.setAttribute('aria-label', '可旋转的人体肌肉模型；也可使用左侧肌肉列表选择');
     this.renderer.domElement.setAttribute('role', 'img');
     container.append(this.renderer.domElement);
@@ -38,22 +68,23 @@ export class AnatomyViewer {
     this.tooltip.className = 'model-tooltip';
     this.tooltip.hidden = true;
     container.append(this.tooltip);
-    this.scene.add(new THREE.HemisphereLight(0xffffff, 0xb8aa95, 2.4));
-    const key = new THREE.DirectionalLight(0xfff3e5, 3.5);
+    this.scene.add(new THREE.HemisphereLight(0xffffff, 0x9caeb3, 1.8));
+    const key = new THREE.DirectionalLight(0xfff7f0, 2.4);
     key.position.set(-2, 3, 4);
     this.scene.add(key);
-    const fill = new THREE.DirectionalLight(0xe8f0f0, 2);
+    const fill = new THREE.DirectionalLight(0xe8f0f6, 1.4);
     fill.position.set(2, 1, -3);
     this.scene.add(fill);
     this.materials = {
-      base: new THREE.MeshStandardMaterial({ color: '#a56f60', roughness: 0.72, metalness: 0 }),
-      alt: new THREE.MeshStandardMaterial({ color: '#b47e6d', roughness: 0.75, metalness: 0 }),
-      selected: new THREE.MeshStandardMaterial({ color: '#dd7545', emissive: '#6a240b', emissiveIntensity: 0.12, roughness: 0.58 }),
-      hover: new THREE.MeshStandardMaterial({ color: '#c79673', roughness: 0.7 }),
-      muted: new THREE.MeshStandardMaterial({ color: '#d2c7b9', roughness: 0.85 }),
-      bone: new THREE.MeshStandardMaterial({ color: '#e7e0cc', roughness: 0.85 }),
+      base: new THREE.MeshStandardMaterial({ color: anatomyPalette.muscle, roughness: 0.8, metalness: 0 }),
+      alt: new THREE.MeshStandardMaterial({ color: anatomyPalette.muscleAlt, roughness: 0.8, metalness: 0 }),
+      selected: new THREE.MeshStandardMaterial({ color: anatomyPalette.selected, emissive: '#024a79', emissiveIntensity: 0.12, roughness: 0.68 }),
+      hover: new THREE.MeshStandardMaterial({ color: anatomyPalette.hover, roughness: 0.75 }),
+      muted: new THREE.MeshStandardMaterial({ color: anatomyPalette.muted, roughness: 0.85 }),
+      bone: new THREE.MeshStandardMaterial({ color: anatomyPalette.bone, roughness: 0.85 }),
     };
     this.scene.add(this.skeleton);
+    this.scene.add(this.outlines);
     // A translucent ellipse grounds the model without an expensive shadow pass.
     const shadowCanvas = document.createElement('canvas');
     shadowCanvas.width = shadowCanvas.height = 128;
@@ -105,6 +136,9 @@ export class AnatomyViewer {
       mesh.userData.part = part;
       this.meshes.push(mesh);
       this.scene.add(mesh);
+      const outline = new THREE.Mesh(geometry, this.outlineMaterial);
+      outline.userData.muscleId = part.muscleId;
+      this.outlines.add(outline);
     }
     for (const part of manifest.skeleton.parts) {
       this.skeleton.add(new THREE.Mesh(this.geometry(bones, part), this.materials.bone));
@@ -167,6 +201,9 @@ export class AnatomyViewer {
       const definition = this.definitions.get(id)!;
       mesh.visible = this.isolated ? id === this.selected : (this.layer === 'all' || definition.layer === this.layer || id === this.selected);
       mesh.material = id === this.selected ? this.materials.selected : this.region !== 'all' && definition.region !== this.region ? this.materials.muted : index % 3 ? this.materials.base : this.materials.alt;
+    });
+    this.outlines.children.forEach((outline, index) => {
+      outline.visible = outline.userData.muscleId === this.selected && this.meshes[index].visible;
     });
     this.render();
   }
@@ -289,6 +326,7 @@ export class AnatomyViewer {
     const height = this.container.clientHeight;
     if (!width || !height) return;
     this.camera.aspect = width / height;
+    this.outlineMaterial.uniforms.resolution.value.set(width, height);
     this.camera.updateProjectionMatrix();
     this.renderer.setSize(width, height);
     if (!this.ready) { this.camera.position.set(0, 0.94, this.fullDistance()); this.controls.update(); }
