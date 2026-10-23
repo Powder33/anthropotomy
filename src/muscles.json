@@ -1,0 +1,1508 @@
+[
+  {
+    "id": "pectoralis-major",
+    "name": "胸大肌",
+    "english": "Pectoralis major",
+    "region": "chest",
+    "layer": "superficial",
+    "view": "front",
+    "summary": "胸前呈扇形的大块肌肉，连接胸廓与上臂，是推举动作的重要参与者。",
+    "actions": [
+      {
+        "name": "肩水平内收",
+        "description": "把展开的上臂带向胸前，如夹胸。"
+      },
+      {
+        "name": "肩内收与内旋",
+        "description": "把上臂带向身体并向内转。"
+      },
+      {
+        "name": "肩屈曲",
+        "description": "锁骨部协助向前抬起上臂。"
+      }
+    ],
+    "exercises": [
+      {
+        "name": "俯卧撑",
+        "description": "在推起时参与肩水平内收。"
+      },
+      {
+        "name": "哑铃卧推",
+        "description": "与三角肌前束、肱三头肌协同。"
+      },
+      {
+        "name": "绳索夹胸",
+        "description": "感受上臂向胸前靠拢。"
+      }
+    ],
+    "tip": "胸肌主要作用在肩关节；推举时，肘关节伸直主要由肱三头肌完成。",
+    "origin": "锁骨内侧半、胸骨及上位肋软骨等",
+    "insertion": "肱骨结节间沟外侧唇",
+    "pattern": "pectoralis major",
+    "reading": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs"
+  },
+  {
+    "id": "pectoralis-minor",
+    "name": "胸小肌",
+    "english": "Pectoralis minor",
+    "region": "chest",
+    "layer": "deep",
+    "view": "front",
+    "summary": "位于胸大肌深面，从上位肋骨连接到肩胛骨喙突。",
+    "actions": [
+      {
+        "name": "肩胛前伸与下压",
+        "description": "协助肩胛骨沿胸廓向前、向下移动。"
+      },
+      {
+        "name": "辅助吸气",
+        "description": "肩胛固定时可协助抬起肋骨。"
+      }
+    ],
+    "exercises": [
+      {
+        "name": "肩胛俯卧撑",
+        "description": "与前锯肌共同参与肩胛控制。"
+      }
+    ],
+    "tip": "这是作用在肩胛骨上的肌肉，不直接连接肱骨。",
+    "origin": "第 3–5 肋附近",
+    "insertion": "肩胛骨喙突",
+    "pattern": "pectoralis minor",
+    "reading": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs"
+  },
+  {
+    "id": "anterior-deltoid",
+    "name": "三角肌前束",
+    "english": "Anterior deltoid",
+    "region": "shoulder",
+    "layer": "superficial",
+    "view": "front",
+    "summary": "覆盖肩部前侧，也称锁骨部，在上臂向前抬起时参与发力。",
+    "actions": [
+      {
+        "name": "肩屈曲",
+        "description": "把上臂向身体前方抬起。"
+      },
+      {
+        "name": "肩水平内收与内旋",
+        "description": "协助上臂向胸前及内侧移动。"
+      }
+    ],
+    "exercises": [
+      {
+        "name": "哑铃推举",
+        "description": "与中束、肱三头肌协同。"
+      },
+      {
+        "name": "哑铃前平举",
+        "description": "直接练习肩屈曲。"
+      }
+    ],
+    "tip": "卧推也会用到前束，安排训练时可考虑推举动作的总量。",
+    "origin": "锁骨外侧三分之一",
+    "insertion": "肱骨三角肌粗隆",
+    "pattern": "clavicular part of (left|right) deltoid",
+    "reading": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs"
+  },
+  {
+    "id": "middle-deltoid",
+    "name": "三角肌中束",
+    "english": "Middle deltoid",
+    "region": "shoulder",
+    "layer": "superficial",
+    "view": "front",
+    "summary": "覆盖肩部外侧，也称肩峰部，是抬臂向身体两侧展开的重要肌肉。",
+    "actions": [
+      {
+        "name": "肩外展",
+        "description": "把上臂向身体侧方抬起。"
+      }
+    ],
+    "exercises": [
+      {
+        "name": "哑铃侧平举",
+        "description": "练习肩外展。"
+      },
+      {
+        "name": "哑铃推举",
+        "description": "在抬臂过程中协同工作。"
+      }
+    ],
+    "tip": "抬臂时肩胛骨也会转动，完整动作需要三角肌与肩胛周围肌肉合作。",
+    "origin": "肩胛骨肩峰",
+    "insertion": "肱骨三角肌粗隆",
+    "pattern": "acromial part of (left|right) deltoid",
+    "reading": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs"
+  },
+  {
+    "id": "posterior-deltoid",
+    "name": "三角肌后束",
+    "english": "Posterior deltoid",
+    "region": "shoulder",
+    "layer": "superficial",
+    "view": "back",
+    "summary": "覆盖肩部后侧，也称肩胛冈部，参与向后拉动上臂。",
+    "actions": [
+      {
+        "name": "肩伸展",
+        "description": "把上臂向身体后方移动。"
+      },
+      {
+        "name": "肩水平外展",
+        "description": "把胸前的上臂向两侧打开。"
+      },
+      {
+        "name": "肩外旋",
+        "description": "协助上臂向外转。"
+      }
+    ],
+    "exercises": [
+      {
+        "name": "俯身反向飞鸟",
+        "description": "练习肩水平外展。"
+      },
+      {
+        "name": "面拉",
+        "description": "与肩袖及肩胛肌群协同。"
+      }
+    ],
+    "tip": "想理解后束，可观察反向飞鸟时上臂的运动，而不只看手的位置。",
+    "origin": "肩胛骨冈",
+    "insertion": "肱骨三角肌粗隆",
+    "pattern": "spinal part of (left|right) deltoid",
+    "reading": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs"
+  },
+  {
+    "id": "supraspinatus",
+    "name": "冈上肌",
+    "english": "Supraspinatus",
+    "region": "shoulder",
+    "layer": "deep",
+    "view": "back",
+    "summary": "肩袖四肌之一，位于肩胛冈上方，肌腱从肩峰下方经过。",
+    "actions": [
+      {
+        "name": "肩外展",
+        "description": "参与上臂抬起的起始阶段及后续过程。"
+      },
+      {
+        "name": "肩关节稳定",
+        "description": "协助把肱骨头保持在关节盂附近。"
+      }
+    ],
+    "exercises": [
+      {
+        "name": "轻负荷肩胛面抬臂",
+        "description": "在身体略前方抬臂，练习控制。"
+      }
+    ],
+    "tip": "肩袖的重要任务是稳定肩关节，不能只按肌肉大小判断作用。",
+    "origin": "肩胛骨冈上窝",
+    "insertion": "肱骨大结节上面",
+    "pattern": "supraspinatus",
+    "reading": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs"
+  },
+  {
+    "id": "infraspinatus",
+    "name": "冈下肌",
+    "english": "Infraspinatus",
+    "region": "shoulder",
+    "layer": "deep",
+    "view": "back",
+    "summary": "肩袖四肌之一，覆盖肩胛骨后面的冈下窝。",
+    "actions": [
+      {
+        "name": "肩外旋",
+        "description": "使上臂绕自身长轴向外转。"
+      },
+      {
+        "name": "肩关节稳定",
+        "description": "协助稳定肱骨头。"
+      }
+    ],
+    "exercises": [
+      {
+        "name": "弹力带肩外旋",
+        "description": "肘靠近身体，练习轻负荷外旋。"
+      }
+    ],
+    "tip": "外旋动作是上臂旋转，不是单纯把肩胛骨往后夹。",
+    "origin": "肩胛骨冈下窝",
+    "insertion": "肱骨大结节中面",
+    "pattern": "infraspinatus",
+    "reading": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs"
+  },
+  {
+    "id": "teres-minor",
+    "name": "小圆肌",
+    "english": "Teres minor",
+    "region": "shoulder",
+    "layer": "deep",
+    "view": "back",
+    "summary": "位于冈下肌下方的肩袖肌，连接肩胛骨外侧缘与肱骨。",
+    "actions": [
+      {
+        "name": "肩外旋",
+        "description": "协助上臂向外转。"
+      },
+      {
+        "name": "肩关节稳定",
+        "description": "与其余肩袖肌共同稳定肱骨头。"
+      }
+    ],
+    "exercises": [
+      {
+        "name": "侧卧肩外旋",
+        "description": "以轻重量控制上臂旋转。"
+      }
+    ],
+    "tip": "小圆肌属于肩袖，大圆肌不属于肩袖。",
+    "origin": "肩胛骨外侧缘",
+    "insertion": "肱骨大结节下面",
+    "pattern": "teres minor",
+    "reading": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs"
+  },
+  {
+    "id": "biceps-brachii",
+    "name": "肱二头肌",
+    "english": "Biceps brachii",
+    "region": "arm",
+    "layer": "superficial",
+    "view": "front",
+    "summary": "位于上臂前侧，有长头和短头，跨过肩与肘关节。",
+    "actions": [
+      {
+        "name": "肘屈曲",
+        "description": "把前臂靠近上臂。"
+      },
+      {
+        "name": "前臂旋后",
+        "description": "把掌心转向前方或上方。"
+      },
+      {
+        "name": "肩屈曲",
+        "description": "协助上臂向前抬起。"
+      }
+    ],
+    "exercises": [
+      {
+        "name": "哑铃弯举",
+        "description": "练习肘屈曲。"
+      },
+      {
+        "name": "旋后弯举",
+        "description": "同时观察掌心转向上的过程。"
+      }
+    ],
+    "tip": "肱二头肌不只负责弯肘，它也是重要的前臂旋后肌。",
+    "origin": "长头：肩胛骨盂上结节；短头：喙突",
+    "insertion": "桡骨粗隆及肱二头肌腱膜",
+    "pattern": "biceps brachii",
+    "reading": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs"
+  },
+  {
+    "id": "triceps-brachii",
+    "name": "肱三头肌",
+    "english": "Triceps brachii",
+    "region": "arm",
+    "layer": "superficial",
+    "view": "back",
+    "summary": "位于上臂后侧，有长头、外侧头、内侧头，是伸肘的主要肌肉。",
+    "actions": [
+      {
+        "name": "肘伸展",
+        "description": "把弯曲的肘伸直。"
+      },
+      {
+        "name": "肩伸展与内收",
+        "description": "长头跨过肩关节，可协助上臂后移及靠近躯干。"
+      }
+    ],
+    "exercises": [
+      {
+        "name": "绳索下压",
+        "description": "练习肘伸展。"
+      },
+      {
+        "name": "过顶臂屈伸",
+        "description": "在肩屈曲位置练习伸肘。"
+      }
+    ],
+    "tip": "三个头都参与伸肘，长头还受肩关节位置影响。",
+    "origin": "长头：肩胛骨盂下结节；其余两头：肱骨后面",
+    "insertion": "尺骨鹰嘴",
+    "pattern": "triceps brachii",
+    "reading": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs"
+  },
+  {
+    "id": "brachialis",
+    "name": "肱肌",
+    "english": "Brachialis",
+    "region": "arm",
+    "layer": "deep",
+    "view": "front",
+    "summary": "位于肱二头肌深面，连接肱骨与尺骨。",
+    "actions": [
+      {
+        "name": "肘屈曲",
+        "description": "不论掌心朝向如何，都能帮助弯曲肘关节。"
+      }
+    ],
+    "exercises": [
+      {
+        "name": "中立握弯举",
+        "description": "与肱桡肌、肱二头肌共同参与。"
+      }
+    ],
+    "tip": "肱肌附着在尺骨，因此不直接负责前臂旋前或旋后。",
+    "origin": "肱骨前面下半部",
+    "insertion": "尺骨粗隆及冠突",
+    "pattern": "\\bbrachialis\\b",
+    "reading": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs"
+  },
+  {
+    "id": "brachioradialis",
+    "name": "肱桡肌",
+    "english": "Brachioradialis",
+    "region": "arm",
+    "layer": "superficial",
+    "view": "front",
+    "summary": "从上臂外侧延伸到前臂桡侧，握拳时可在前臂外侧看到轮廓。",
+    "actions": [
+      {
+        "name": "肘屈曲",
+        "description": "前臂处于中立位时尤其有利。"
+      },
+      {
+        "name": "前臂回中立位",
+        "description": "协助从旋前或旋后位置回到拇指朝上的方向。"
+      }
+    ],
+    "exercises": [
+      {
+        "name": "锤式弯举",
+        "description": "保持拇指朝上进行弯肘。"
+      }
+    ],
+    "tip": "它位于前臂，但主要作用是弯肘，而不是弯手腕。",
+    "origin": "肱骨外侧髁上嵴",
+    "insertion": "桡骨远端茎突附近",
+    "pattern": "brachioradialis",
+    "reading": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs"
+  },
+  {
+    "id": "flexor-carpi-radialis",
+    "name": "桡侧腕屈肌",
+    "english": "Flexor carpi radialis",
+    "region": "arm",
+    "layer": "superficial",
+    "view": "front",
+    "summary": "位于前臂前侧偏桡侧，肌腱通向手掌。",
+    "actions": [
+      {
+        "name": "腕屈曲",
+        "description": "让掌心向前臂方向靠近。"
+      },
+      {
+        "name": "腕桡偏",
+        "description": "让手向拇指一侧偏移。"
+      }
+    ],
+    "exercises": [
+      {
+        "name": "轻负荷腕弯举",
+        "description": "固定前臂，仅在手腕处运动。"
+      }
+    ],
+    "tip": "前臂肌群很多，腕屈曲通常由多块肌肉共同完成。",
+    "origin": "肱骨内上髁",
+    "insertion": "第 2、3 掌骨基底附近",
+    "pattern": "flexor carpi radialis",
+    "reading": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs"
+  },
+  {
+    "id": "extensor-digitorum",
+    "name": "指伸肌",
+    "english": "Extensor digitorum",
+    "region": "arm",
+    "layer": "superficial",
+    "view": "back",
+    "summary": "位于前臂后侧，通过肌腱连接第 2–5 指。",
+    "actions": [
+      {
+        "name": "手指伸展",
+        "description": "帮助伸直第 2–5 指。"
+      },
+      {
+        "name": "腕伸展",
+        "description": "协助手背向前臂后侧靠近。"
+      }
+    ],
+    "exercises": [
+      {
+        "name": "弹力带张指",
+        "description": "用轻阻力练习打开手指。"
+      }
+    ],
+    "tip": "握力训练用到屈指肌，张指练习有助于理解相反的动作方向。",
+    "origin": "肱骨外上髁",
+    "insertion": "第 2–5 指伸肌腱膜",
+    "pattern": "\\bextensor digitorum$",
+    "reading": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs"
+  },
+  {
+    "id": "trapezius",
+    "name": "斜方肌",
+    "english": "Trapezius",
+    "region": "back",
+    "layer": "superficial",
+    "view": "back",
+    "summary": "覆盖颈后与上背的大片肌肉，分上、中、下部，作用随纤维方向不同。",
+    "actions": [
+      {
+        "name": "肩胛上提与后缩",
+        "description": "上部参与耸肩，中部参与肩胛后缩。"
+      },
+      {
+        "name": "肩胛下压与上回旋",
+        "description": "下部协同上部、前锯肌参与抬臂时的肩胛运动。"
+      }
+    ],
+    "exercises": [
+      {
+        "name": "哑铃耸肩",
+        "description": "上部参与肩胛上提。"
+      },
+      {
+        "name": "俯卧 Y 举",
+        "description": "练习下部参与的肩胛控制。"
+      },
+      {
+        "name": "坐姿划船",
+        "description": "中部参与肩胛后缩。"
+      }
+    ],
+    "tip": "斜方肌并非只有颈侧那一块；中、下部对肩胛控制同样重要。",
+    "origin": "枕骨、项韧带及 C7–T12 棘突等",
+    "insertion": "锁骨外侧、肩峰及肩胛冈",
+    "pattern": "trapezius",
+    "reading": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back"
+  },
+  {
+    "id": "latissimus-dorsi",
+    "name": "背阔肌",
+    "english": "Latissimus dorsi",
+    "region": "back",
+    "layer": "superficial",
+    "view": "back",
+    "summary": "覆盖中下背部的大块扇形肌，向上汇聚并连接肱骨。",
+    "actions": [
+      {
+        "name": "肩内收",
+        "description": "把举起的上臂拉向身体。"
+      },
+      {
+        "name": "肩伸展",
+        "description": "把前伸的上臂向后拉。"
+      },
+      {
+        "name": "肩内旋",
+        "description": "协助上臂向内转。"
+      }
+    ],
+    "exercises": [
+      {
+        "name": "高位下拉",
+        "description": "上臂向躯干靠近。"
+      },
+      {
+        "name": "引体向上",
+        "description": "与屈肘肌协同。"
+      },
+      {
+        "name": "直臂下压",
+        "description": "在肘角变化较小时观察肩伸展。"
+      }
+    ],
+    "tip": "理解背阔肌时，重点观察上臂相对躯干的移动。",
+    "origin": "下胸椎棘突、胸腰筋膜、髂嵴及下位肋等",
+    "insertion": "肱骨结节间沟底",
+    "pattern": "latissimus dorsi",
+    "reading": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back"
+  },
+  {
+    "id": "rhomboid-major",
+    "name": "菱形肌",
+    "english": "Rhomboid",
+    "region": "back",
+    "layer": "deep",
+    "view": "back",
+    "summary": "位于斜方肌深面，包含大菱形肌与小菱形肌，连接脊柱与肩胛骨内侧缘。",
+    "actions": [
+      {
+        "name": "肩胛后缩",
+        "description": "让肩胛骨向脊柱靠近。"
+      },
+      {
+        "name": "肩胛下回旋",
+        "description": "协助肩胛骨关节盂转向下方。"
+      }
+    ],
+    "exercises": [
+      {
+        "name": "划船的肩胛控制",
+        "description": "感受肩胛沿胸廓靠近脊柱。"
+      }
+    ],
+    "tip": "肩胛后缩不是腰椎后仰，应区分肩胛和躯干的动作。",
+    "origin": "下颈椎至上胸椎附近棘突",
+    "insertion": "肩胛骨内侧缘",
+    "pattern": "rhomboid (major|minor)",
+    "reading": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back"
+  },
+  {
+    "id": "teres-major",
+    "name": "大圆肌",
+    "english": "Teres major",
+    "region": "back",
+    "layer": "superficial",
+    "view": "back",
+    "summary": "位于肩胛骨下角附近，与背阔肌有相似的作用方向。",
+    "actions": [
+      {
+        "name": "肩内收与伸展",
+        "description": "把上臂拉向身体及后方。"
+      },
+      {
+        "name": "肩内旋",
+        "description": "协助上臂向内转。"
+      }
+    ],
+    "exercises": [
+      {
+        "name": "高位下拉",
+        "description": "与背阔肌共同参与。"
+      }
+    ],
+    "tip": "名称相近的小圆肌参与外旋，大圆肌参与内旋，二者功能不同。",
+    "origin": "肩胛骨下角后面附近",
+    "insertion": "肱骨结节间沟内侧唇",
+    "pattern": "teres major",
+    "reading": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back"
+  },
+  {
+    "id": "erector-spinae",
+    "name": "竖脊肌群",
+    "english": "Erector spinae",
+    "region": "back",
+    "layer": "deep",
+    "view": "back",
+    "summary": "沿脊柱两侧纵行，包括髂肋肌、最长肌和棘肌等部分。",
+    "actions": [
+      {
+        "name": "脊柱伸展",
+        "description": "双侧收缩帮助躯干伸直。"
+      },
+      {
+        "name": "脊柱侧屈",
+        "description": "单侧收缩可使躯干向同侧倾斜。"
+      },
+      {
+        "name": "姿势维持",
+        "description": "协助抵抗躯干向前弯曲的力矩。"
+      }
+    ],
+    "exercises": [
+      {
+        "name": "髋铰链练习",
+        "description": "在髋部运动时维持躯干姿势。"
+      },
+      {
+        "name": "罗马尼亚硬拉",
+        "description": "作为躯干稳定肌群参与。"
+      }
+    ],
+    "tip": "硬拉中髋关节伸展与脊柱稳定是不同任务，不需要刻意反复弯伸腰部。",
+    "origin": "骶骨、髂嵴及腰椎附近的共同起点",
+    "insertion": "沿途肋骨、椎骨及颅骨等，依分支不同",
+    "pattern": "\\b(iliocostalis|longissimus|spinalis)\\b",
+    "reading": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back"
+  },
+  {
+    "id": "serratus-anterior",
+    "name": "前锯肌",
+    "english": "Serratus anterior",
+    "region": "chest",
+    "layer": "superficial",
+    "view": "front",
+    "summary": "位于胸廓两侧，像锯齿一样起自肋骨，绕向肩胛骨内侧面。",
+    "actions": [
+      {
+        "name": "肩胛前伸",
+        "description": "把肩胛骨沿胸廓向前带。"
+      },
+      {
+        "name": "肩胛上回旋",
+        "description": "配合斜方肌完成抬臂。"
+      },
+      {
+        "name": "肩胛稳定",
+        "description": "帮助肩胛骨贴近胸廓。"
+      }
+    ],
+    "exercises": [
+      {
+        "name": "俯卧撑加",
+        "description": "在伸肘后继续轻轻推远胸廓。"
+      },
+      {
+        "name": "墙面滑手",
+        "description": "练习抬臂时的肩胛控制。"
+      }
+    ],
+    "tip": "前锯肌的作用对象是肩胛骨，不能用卷腹代替肩胛运动来理解。",
+    "origin": "第 1–8 或第 9 肋外侧面",
+    "insertion": "肩胛骨内侧缘前面",
+    "pattern": "serratus anterior",
+    "reading": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs"
+  },
+  {
+    "id": "rectus-abdominis",
+    "name": "腹直肌",
+    "english": "Rectus abdominis",
+    "region": "core",
+    "layer": "superficial",
+    "view": "front",
+    "summary": "位于腹部前方、腹白线两侧，腱划形成常见的腹肌分块外观。",
+    "actions": [
+      {
+        "name": "躯干屈曲",
+        "description": "使胸廓向骨盆靠近。"
+      },
+      {
+        "name": "骨盆后倾",
+        "description": "协助减小骨盆前倾。"
+      },
+      {
+        "name": "腹压与稳定",
+        "description": "与其他腹肌共同参与躯干稳定。"
+      }
+    ],
+    "exercises": [
+      {
+        "name": "卷腹",
+        "description": "胸廓向骨盆靠近。"
+      },
+      {
+        "name": "死虫式",
+        "description": "在四肢移动时协助稳定躯干。"
+      }
+    ],
+    "tip": "腹肌的块数和腱划形态存在个体差异；训练不代表能局部减少腹部脂肪。",
+    "origin": "耻骨嵴及耻骨联合",
+    "insertion": "剑突及第 5–7 肋软骨",
+    "pattern": "rectus abdominis",
+    "reading": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-4-axial-muscles-of-the-abdominal-wall-and-thorax"
+  },
+  {
+    "id": "external-oblique",
+    "name": "腹外斜肌",
+    "english": "External oblique",
+    "region": "core",
+    "layer": "superficial",
+    "view": "front",
+    "summary": "位于腹部两侧浅层，纤维大体从外上方向内下方走行。",
+    "actions": [
+      {
+        "name": "躯干旋转",
+        "description": "单侧收缩参与向对侧转体。"
+      },
+      {
+        "name": "躯干侧屈",
+        "description": "协助向同侧弯曲。"
+      },
+      {
+        "name": "腹部压缩",
+        "description": "双侧收缩参与屈曲及腹压调节。"
+      }
+    ],
+    "exercises": [
+      {
+        "name": "绳索伐木",
+        "description": "练习受控的躯干旋转。"
+      },
+      {
+        "name": "侧桥",
+        "description": "与其他侧腹肌共同抵抗侧屈。"
+      }
+    ],
+    "tip": "转体时，腹外斜肌与对侧腹内斜肌协同工作。",
+    "origin": "第 5–12 肋外侧面",
+    "insertion": "腹白线、耻骨结节及髂嵴前部等",
+    "pattern": "external oblique",
+    "reading": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-4-axial-muscles-of-the-abdominal-wall-and-thorax"
+  },
+  {
+    "id": "internal-oblique",
+    "name": "腹内斜肌",
+    "english": "Internal oblique",
+    "region": "core",
+    "layer": "deep",
+    "view": "front",
+    "summary": "位于腹外斜肌深面，纤维方向与外斜肌大致交叉。",
+    "actions": [
+      {
+        "name": "躯干旋转",
+        "description": "单侧收缩参与向同侧转体。"
+      },
+      {
+        "name": "躯干侧屈与压缩",
+        "description": "协助侧弯、躯干屈曲及腹压调节。"
+      }
+    ],
+    "exercises": [
+      {
+        "name": "侧桥",
+        "description": "参与维持躯干稳定。"
+      },
+      {
+        "name": "抗旋转推举",
+        "description": "与其他核心肌协同抵抗转体。"
+      }
+    ],
+    "tip": "内、外斜肌在同侧转体时的作用方向不同。",
+    "origin": "胸腰筋膜、髂嵴及腹股沟韧带附近",
+    "insertion": "下位肋骨、腹白线及耻骨附近",
+    "pattern": "internal oblique",
+    "reading": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-4-axial-muscles-of-the-abdominal-wall-and-thorax"
+  },
+  {
+    "id": "transversus-abdominis",
+    "name": "腹横肌",
+    "english": "Transversus abdominis",
+    "region": "core",
+    "layer": "deep",
+    "view": "front",
+    "summary": "腹壁较深层的肌肉，纤维大体横向围绕腹部。",
+    "actions": [
+      {
+        "name": "腹部压缩",
+        "description": "与其他腹肌共同调节腹压。"
+      },
+      {
+        "name": "躯干稳定",
+        "description": "与膈肌、盆底及背部肌群协调。"
+      }
+    ],
+    "exercises": [
+      {
+        "name": "死虫式",
+        "description": "在呼吸与四肢移动中保持躯干控制。"
+      },
+      {
+        "name": "鸟狗式",
+        "description": "参与对抗躯干旋转。"
+      }
+    ],
+    "tip": "核心稳定是多块肌肉的协作，不能简化为只收紧某一块肌肉。",
+    "origin": "下位肋软骨、胸腰筋膜、髂嵴及腹股沟韧带等",
+    "insertion": "腹白线及耻骨附近",
+    "pattern": "transversus abdominis",
+    "reading": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-4-axial-muscles-of-the-abdominal-wall-and-thorax"
+  },
+  {
+    "id": "sternocleidomastoid",
+    "name": "胸锁乳突肌",
+    "english": "Sternocleidomastoid",
+    "region": "neck",
+    "layer": "superficial",
+    "view": "front",
+    "summary": "位于颈部前外侧，从胸骨和锁骨向耳后乳突延伸。",
+    "actions": [
+      {
+        "name": "颈部旋转",
+        "description": "单侧收缩使脸转向对侧。"
+      },
+      {
+        "name": "颈部侧屈",
+        "description": "使头颈向同侧倾斜。"
+      },
+      {
+        "name": "双侧协同",
+        "description": "可使下颈部屈曲、上颈部伸展，作用取决于姿势。"
+      }
+    ],
+    "exercises": [
+      {
+        "name": "轻柔转头观察",
+        "description": "缓慢转头，辨认对侧颈部轮廓。"
+      }
+    ],
+    "tip": "这里的动作仅用于识别肌肉，不需要给颈部施加大负荷。",
+    "origin": "胸骨柄及锁骨内侧部",
+    "insertion": "颞骨乳突及上项线附近",
+    "pattern": "sternocleidomastoid",
+    "reading": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back"
+  },
+  {
+    "id": "masseter",
+    "name": "咬肌",
+    "english": "Masseter",
+    "region": "neck",
+    "layer": "superficial",
+    "view": "front",
+    "summary": "位于下颌两侧，是咀嚼时容易触及的肌肉。",
+    "actions": [
+      {
+        "name": "下颌上提",
+        "description": "帮助闭合下颌。"
+      },
+      {
+        "name": "辅助前伸",
+        "description": "浅部纤维可协助下颌前移。"
+      }
+    ],
+    "exercises": [
+      {
+        "name": "轻轻闭合下颌",
+        "description": "用于观察咬肌轮廓，无需反复用力咬紧。"
+      }
+    ],
+    "tip": "咀嚼肌也属于骨骼肌，本图谱中的头颈区域用于补充身体结构认识。",
+    "origin": "颧弓",
+    "insertion": "下颌骨支外面及下颌角",
+    "pattern": "masseter",
+    "reading": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back"
+  },
+  {
+    "id": "gluteus-maximus",
+    "name": "臀大肌",
+    "english": "Gluteus maximus",
+    "region": "hip",
+    "layer": "superficial",
+    "view": "back",
+    "summary": "臀部最表浅的大块肌肉，是起身、爬坡和髋伸展中的重要参与者。",
+    "actions": [
+      {
+        "name": "髋伸展",
+        "description": "把大腿向后带，或从屈髋位置站起。"
+      },
+      {
+        "name": "髋外旋",
+        "description": "使大腿向外转。"
+      },
+      {
+        "name": "骨盆稳定",
+        "description": "参与控制躯干与股骨的位置。"
+      }
+    ],
+    "exercises": [
+      {
+        "name": "臀桥",
+        "description": "练习髋伸展。"
+      },
+      {
+        "name": "深蹲",
+        "description": "从屈髋位置起身时参与。"
+      },
+      {
+        "name": "台阶上步",
+        "description": "在单腿支撑中协同工作。"
+      }
+    ],
+    "tip": "臀桥的主要关节动作是髋伸展，避免把它理解为单纯腰部后仰。",
+    "origin": "髂骨后部、骶骨及尾骨附近等",
+    "insertion": "髂胫束及股骨臀肌粗隆",
+    "pattern": "gluteus maximus",
+    "reading": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs"
+  },
+  {
+    "id": "gluteus-medius",
+    "name": "臀中肌",
+    "english": "Gluteus medius",
+    "region": "hip",
+    "layer": "superficial",
+    "view": "back",
+    "summary": "位于臀部外上方，部分被臀大肌覆盖，对单腿站立时的骨盆控制很重要。",
+    "actions": [
+      {
+        "name": "髋外展",
+        "description": "使大腿向身体外侧移动。"
+      },
+      {
+        "name": "骨盆稳定",
+        "description": "单腿支撑时帮助控制对侧骨盆下沉。"
+      },
+      {
+        "name": "髋旋转",
+        "description": "前后部纤维作用随髋位不同而变化。"
+      }
+    ],
+    "exercises": [
+      {
+        "name": "侧卧抬腿",
+        "description": "练习髋外展。"
+      },
+      {
+        "name": "弹力带侧向走",
+        "description": "在移动中练习骨盆控制。"
+      }
+    ],
+    "tip": "臀中肌不仅用于侧抬腿，也参与走路、跑步时的单腿支撑。",
+    "origin": "髂骨外面",
+    "insertion": "股骨大转子外侧面",
+    "pattern": "gluteus medius",
+    "reading": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs"
+  },
+  {
+    "id": "gluteus-minimus",
+    "name": "臀小肌",
+    "english": "Gluteus minimus",
+    "region": "hip",
+    "layer": "deep",
+    "view": "back",
+    "summary": "位于臀中肌深面，连接髂骨与股骨大转子。",
+    "actions": [
+      {
+        "name": "髋外展与内旋",
+        "description": "参与向外抬腿及大腿内转。"
+      },
+      {
+        "name": "骨盆稳定",
+        "description": "与臀中肌协同维持单腿支撑。"
+      }
+    ],
+    "exercises": [
+      {
+        "name": "轻负荷侧卧抬腿",
+        "description": "与臀中肌共同参与。"
+      }
+    ],
+    "tip": "臀小肌位于深层，可用单独观察查看其位置。",
+    "origin": "髂骨外面，位于臀中肌起点下方",
+    "insertion": "股骨大转子前面",
+    "pattern": "gluteus minimus",
+    "reading": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs"
+  },
+  {
+    "id": "iliopsoas",
+    "name": "髂腰肌",
+    "english": "Iliopsoas",
+    "region": "hip",
+    "layer": "deep",
+    "view": "front",
+    "summary": "由腰大肌和髂肌组成，从腰椎与髂窝延伸到股骨。",
+    "actions": [
+      {
+        "name": "髋屈曲",
+        "description": "把大腿向身体前方抬起。"
+      },
+      {
+        "name": "腰骨盆控制",
+        "description": "作用随躯干固定方式和姿势而变化。"
+      }
+    ],
+    "exercises": [
+      {
+        "name": "站姿弹力带抬膝",
+        "description": "练习受控的髋屈曲。"
+      }
+    ],
+    "tip": "抬腿不只练腹肌；髋屈肌也会参与把大腿抬向躯干。",
+    "origin": "腰大肌：腰椎附近；髂肌：髂窝",
+    "insertion": "股骨小转子",
+    "pattern": "psoas major|iliacus",
+    "reading": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs"
+  },
+  {
+    "id": "rectus-femoris",
+    "name": "股直肌",
+    "english": "Rectus femoris",
+    "region": "thigh",
+    "layer": "superficial",
+    "view": "front",
+    "summary": "位于大腿前侧，是股四头肌中同时跨过髋和膝的部分。",
+    "actions": [
+      {
+        "name": "膝伸展",
+        "description": "伸直膝关节。"
+      },
+      {
+        "name": "髋屈曲",
+        "description": "协助大腿向前抬起。"
+      }
+    ],
+    "exercises": [
+      {
+        "name": "腿屈伸",
+        "description": "与其他股四头肌共同伸膝。"
+      },
+      {
+        "name": "分腿蹲",
+        "description": "在控制和起身阶段参与。"
+      }
+    ],
+    "tip": "与另外三块股四头肌不同，股直肌还跨过髋关节。",
+    "origin": "髂前下棘及髋臼上缘附近",
+    "insertion": "经髌骨、髌韧带连至胫骨粗隆",
+    "pattern": "rectus femoris",
+    "reading": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs"
+  },
+  {
+    "id": "vastus-lateralis",
+    "name": "股外侧肌",
+    "english": "Vastus lateralis",
+    "region": "thigh",
+    "layer": "superficial",
+    "view": "front",
+    "summary": "位于大腿前外侧，是股四头肌的重要组成部分。",
+    "actions": [
+      {
+        "name": "膝伸展",
+        "description": "帮助伸直膝关节。"
+      },
+      {
+        "name": "膝部控制",
+        "description": "通过股四头肌腱参与髌骨运动。"
+      }
+    ],
+    "exercises": [
+      {
+        "name": "深蹲",
+        "description": "起身时参与伸膝。"
+      },
+      {
+        "name": "腿举",
+        "description": "与其他伸膝肌协同。"
+      }
+    ],
+    "tip": "脚尖角度的变化不会让某一块股四头肌完全独立工作。",
+    "origin": "股骨大转子及粗线外侧唇等",
+    "insertion": "经髌骨、髌韧带连至胫骨粗隆",
+    "pattern": "vastus lateralis",
+    "reading": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs"
+  },
+  {
+    "id": "vastus-medialis",
+    "name": "股内侧肌",
+    "english": "Vastus medialis",
+    "region": "thigh",
+    "layer": "superficial",
+    "view": "front",
+    "summary": "位于大腿前内侧，远端在膝内上方形成明显轮廓。",
+    "actions": [
+      {
+        "name": "膝伸展",
+        "description": "帮助伸直膝关节。"
+      },
+      {
+        "name": "髌骨控制",
+        "description": "与其他股四头肌共同控制髌骨。"
+      }
+    ],
+    "exercises": [
+      {
+        "name": "台阶上步",
+        "description": "在起身时参与伸膝。"
+      },
+      {
+        "name": "腿屈伸",
+        "description": "与其他股四头肌共同参与。"
+      }
+    ],
+    "tip": "股内侧肌通常与整个股四头肌群一起工作。",
+    "origin": "股骨转子间线及粗线内侧唇等",
+    "insertion": "经髌骨、髌韧带连至胫骨粗隆",
+    "pattern": "vastus medialis",
+    "reading": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs"
+  },
+  {
+    "id": "vastus-intermedius",
+    "name": "股中间肌",
+    "english": "Vastus intermedius",
+    "region": "thigh",
+    "layer": "deep",
+    "view": "front",
+    "summary": "位于股直肌深面，贴近股骨前面，是股四头肌之一。",
+    "actions": [
+      {
+        "name": "膝伸展",
+        "description": "与股直肌、股内侧肌和股外侧肌一起伸膝。"
+      }
+    ],
+    "exercises": [
+      {
+        "name": "腿屈伸",
+        "description": "参与膝关节伸展。"
+      },
+      {
+        "name": "深蹲",
+        "description": "起身时协同工作。"
+      }
+    ],
+    "tip": "它被股直肌覆盖，单独观察更容易理解其位置。",
+    "origin": "股骨前面及外侧面",
+    "insertion": "经髌骨、髌韧带连至胫骨粗隆",
+    "pattern": "vastus intermedius",
+    "reading": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs"
+  },
+  {
+    "id": "biceps-femoris",
+    "name": "股二头肌",
+    "english": "Biceps femoris",
+    "region": "thigh",
+    "layer": "superficial",
+    "view": "back",
+    "summary": "位于大腿后外侧，包含长头和短头，是腘绳肌群的一部分。",
+    "actions": [
+      {
+        "name": "膝屈曲",
+        "description": "把小腿向大腿后方靠近。"
+      },
+      {
+        "name": "髋伸展",
+        "description": "长头跨髋，协助大腿向后移动。"
+      },
+      {
+        "name": "小腿外旋",
+        "description": "屈膝时参与小腿外转。"
+      }
+    ],
+    "exercises": [
+      {
+        "name": "腿弯举",
+        "description": "练习膝屈曲。"
+      },
+      {
+        "name": "罗马尼亚硬拉",
+        "description": "长头参与髋伸展。"
+      }
+    ],
+    "tip": "短头只跨膝关节，不能把长头的髋伸展功能套用到短头。",
+    "origin": "长头：坐骨结节；短头：股骨粗线等",
+    "insertion": "腓骨头附近",
+    "pattern": "biceps femoris",
+    "reading": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs"
+  },
+  {
+    "id": "semitendinosus",
+    "name": "半腱肌",
+    "english": "Semitendinosus",
+    "region": "thigh",
+    "layer": "superficial",
+    "view": "back",
+    "summary": "位于大腿后内侧，有较长的远端肌腱，属于腘绳肌群。",
+    "actions": [
+      {
+        "name": "膝屈曲与髋伸展",
+        "description": "弯膝并协助大腿向后移动。"
+      },
+      {
+        "name": "小腿内旋",
+        "description": "屈膝时参与小腿内转。"
+      }
+    ],
+    "exercises": [
+      {
+        "name": "腿弯举",
+        "description": "与其他腘绳肌协同。"
+      },
+      {
+        "name": "髋铰链训练",
+        "description": "参与髋伸展。"
+      }
+    ],
+    "tip": "腘绳肌群同时影响髋和膝，两个关节的姿势都会影响肌肉长度。",
+    "origin": "坐骨结节",
+    "insertion": "胫骨上部内侧面，鹅足区域",
+    "pattern": "semitendinosus",
+    "reading": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs"
+  },
+  {
+    "id": "semimembranosus",
+    "name": "半膜肌",
+    "english": "Semimembranosus",
+    "region": "thigh",
+    "layer": "deep",
+    "view": "back",
+    "summary": "位于大腿后内侧，部分在半腱肌深面，属于腘绳肌群。",
+    "actions": [
+      {
+        "name": "膝屈曲与髋伸展",
+        "description": "帮助弯膝并向后伸髋。"
+      },
+      {
+        "name": "小腿内旋",
+        "description": "屈膝时协助小腿内转。"
+      }
+    ],
+    "exercises": [
+      {
+        "name": "罗马尼亚硬拉",
+        "description": "参与髋伸展。"
+      },
+      {
+        "name": "腿弯举",
+        "description": "参与膝屈曲。"
+      }
+    ],
+    "tip": "它与半腱肌的名字相近，但属于不同的解剖结构。",
+    "origin": "坐骨结节",
+    "insertion": "胫骨内侧髁后面",
+    "pattern": "semimembranosus",
+    "reading": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs"
+  },
+  {
+    "id": "adductor-longus",
+    "name": "长收肌",
+    "english": "Adductor longus",
+    "region": "thigh",
+    "layer": "superficial",
+    "view": "front",
+    "summary": "位于大腿内侧浅层，呈扇形，连接耻骨与股骨。",
+    "actions": [
+      {
+        "name": "髋内收",
+        "description": "把大腿向身体中线靠近。"
+      },
+      {
+        "name": "辅助髋屈曲",
+        "description": "在部分髋位协助向前抬腿。"
+      }
+    ],
+    "exercises": [
+      {
+        "name": "髋内收器械",
+        "description": "练习双腿向中间靠拢。"
+      },
+      {
+        "name": "侧弓步",
+        "description": "在下放和回程中协同。"
+      }
+    ],
+    "tip": "内收肌不只是让两腿夹紧，也参与下肢动作中的骨盆和股骨控制。",
+    "origin": "耻骨体前面",
+    "insertion": "股骨粗线中段",
+    "pattern": "adductor longus",
+    "reading": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs"
+  },
+  {
+    "id": "adductor-magnus",
+    "name": "大收肌",
+    "english": "Adductor magnus",
+    "region": "thigh",
+    "layer": "deep",
+    "view": "back",
+    "summary": "大腿内侧体积较大的肌肉，包含内收部与腘绳部。",
+    "actions": [
+      {
+        "name": "髋内收",
+        "description": "把大腿带向中线。"
+      },
+      {
+        "name": "髋伸展",
+        "description": "腘绳部是髋伸展的重要参与者。"
+      }
+    ],
+    "exercises": [
+      {
+        "name": "深蹲",
+        "description": "部分纤维参与从屈髋位置起身。"
+      },
+      {
+        "name": "髋内收训练",
+        "description": "参与大腿内收。"
+      }
+    ],
+    "tip": "大收肌也能参与髋伸展，因此深蹲不只用到臀肌和股四头肌。",
+    "origin": "耻骨下支、坐骨支及坐骨结节等",
+    "insertion": "股骨粗线及收肌结节等",
+    "pattern": "adductor magnus",
+    "reading": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs"
+  },
+  {
+    "id": "sartorius",
+    "name": "缝匠肌",
+    "english": "Sartorius",
+    "region": "thigh",
+    "layer": "superficial",
+    "view": "front",
+    "summary": "从髋外上方向膝内侧斜行，是人体较长的带状肌。",
+    "actions": [
+      {
+        "name": "髋屈曲、外展与外旋",
+        "description": "协助把大腿抬起并向外打开。"
+      },
+      {
+        "name": "膝屈曲",
+        "description": "参与弯曲膝关节。"
+      }
+    ],
+    "exercises": [
+      {
+        "name": "低强度抬膝外展",
+        "description": "观察髋与膝共同运动。"
+      }
+    ],
+    "tip": "它跨过髋和膝，功能取决于多个关节动作的组合。",
+    "origin": "髂前上棘",
+    "insertion": "胫骨上部内侧面，鹅足区域",
+    "pattern": "sartorius",
+    "reading": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs"
+  },
+  {
+    "id": "gracilis",
+    "name": "股薄肌",
+    "english": "Gracilis",
+    "region": "thigh",
+    "layer": "superficial",
+    "view": "front",
+    "summary": "沿大腿内侧纵行的细长肌，跨过髋与膝。",
+    "actions": [
+      {
+        "name": "髋内收",
+        "description": "协助大腿向中线靠近。"
+      },
+      {
+        "name": "膝屈曲与小腿内旋",
+        "description": "协助弯膝并向内转小腿。"
+      }
+    ],
+    "exercises": [
+      {
+        "name": "轻负荷髋内收",
+        "description": "与其他内收肌协同。"
+      }
+    ],
+    "tip": "与多数内收肌不同，股薄肌还跨过膝关节。",
+    "origin": "耻骨体及耻骨下支附近",
+    "insertion": "胫骨上部内侧面，鹅足区域",
+    "pattern": "gracilis",
+    "reading": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs"
+  },
+  {
+    "id": "gastrocnemius",
+    "name": "腓肠肌",
+    "english": "Gastrocnemius",
+    "region": "calf",
+    "layer": "superficial",
+    "view": "back",
+    "summary": "小腿后侧表浅的双头肌，跨过膝与踝关节。",
+    "actions": [
+      {
+        "name": "踝跖屈",
+        "description": "像踮脚一样抬起脚跟。"
+      },
+      {
+        "name": "膝屈曲",
+        "description": "协助弯曲膝关节。"
+      }
+    ],
+    "exercises": [
+      {
+        "name": "站姿提踵",
+        "description": "在膝较伸直时参与跖屈。"
+      }
+    ],
+    "tip": "弯膝会使跨膝的腓肠肌缩短，从而改变它与比目鱼肌的相对参与。",
+    "origin": "股骨内、外侧髁后方",
+    "insertion": "经跟腱连至跟骨",
+    "pattern": "gastrocnemius",
+    "reading": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs"
+  },
+  {
+    "id": "soleus",
+    "name": "比目鱼肌",
+    "english": "Soleus",
+    "region": "calf",
+    "layer": "deep",
+    "view": "back",
+    "summary": "位于腓肠肌深面，不跨膝关节，是站立与步行中的重要肌肉。",
+    "actions": [
+      {
+        "name": "踝跖屈",
+        "description": "抬起脚跟。"
+      },
+      {
+        "name": "姿势维持",
+        "description": "帮助控制站立时身体向前倾的趋势。"
+      }
+    ],
+    "exercises": [
+      {
+        "name": "坐姿提踵",
+        "description": "弯膝时仍能参与踝跖屈。"
+      }
+    ],
+    "tip": "坐姿提踵会改变腓肠肌的力学条件，但不意味着其他肌肉完全不工作。",
+    "origin": "胫骨后面及腓骨近端附近",
+    "insertion": "经跟腱连至跟骨",
+    "pattern": "soleus",
+    "reading": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs"
+  },
+  {
+    "id": "tibialis-anterior",
+    "name": "胫骨前肌",
+    "english": "Tibialis anterior",
+    "region": "calf",
+    "layer": "superficial",
+    "view": "front",
+    "summary": "位于小腿前外侧，肌腱越过踝前方通向足内侧。",
+    "actions": [
+      {
+        "name": "踝背屈",
+        "description": "把脚背向小腿方向抬起。"
+      },
+      {
+        "name": "足内翻",
+        "description": "让足底朝向内侧。"
+      }
+    ],
+    "exercises": [
+      {
+        "name": "靠墙抬脚尖",
+        "description": "脚跟接触地面，抬起前脚掌。"
+      }
+    ],
+    "tip": "踝背屈与提踵的跖屈方向相反，步行时它帮助控制前脚掌落地。",
+    "origin": "胫骨外侧面及骨间膜附近",
+    "insertion": "内侧楔骨及第 1 跖骨基底",
+    "pattern": "tibialis anterior",
+    "reading": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs"
+  },
+  {
+    "id": "fibularis-longus",
+    "name": "腓骨长肌",
+    "english": "Fibularis longus",
+    "region": "calf",
+    "layer": "superficial",
+    "view": "front",
+    "summary": "沿小腿外侧走行，肌腱绕过外踝并经过足底。",
+    "actions": [
+      {
+        "name": "足外翻",
+        "description": "使足底朝外。"
+      },
+      {
+        "name": "辅助踝跖屈",
+        "description": "协助脚尖向下。"
+      },
+      {
+        "name": "足弓支持",
+        "description": "与其他足部结构共同维持稳定。"
+      }
+    ],
+    "exercises": [
+      {
+        "name": "弹力带足外翻",
+        "description": "固定小腿，控制足部向外转。"
+      }
+    ],
+    "tip": "模型英文有时使用旧称 peroneus longus，两者指同一结构。",
+    "origin": "腓骨头及腓骨外侧面上部",
+    "insertion": "第 1 跖骨基底及内侧楔骨",
+    "pattern": "fibularis longus|peroneus longus",
+    "reading": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs"
+  }
+]
